@@ -90,7 +90,7 @@ export default <VdoingThemeConfig>{
     copyrightInfo: `
       <a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
       <br>
-      <a href="http://beian.miit.gov.cn/" target="_blank">蒙ICP备12345678号-1</a>
+      <a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2022010865号-1</a>
     `, // 博客版权信息，支持a标签
   },
 };

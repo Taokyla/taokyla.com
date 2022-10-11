@@ -8,16 +8,12 @@ export default <Array<NavItem>>[
     text: "配置",
     items: [
       {
-        text: "项目配置",
-        link: "/start/",
+        text: "Python",
+        link: "/python/",
       },
       {
-        text: "部署",
-        link: "/deploy/",
-      },
-      {
-        text: "更多参考",
-        link: "/more/",
+        text: "其他",
+        link: "/otehr/",
       },
     ],
   },

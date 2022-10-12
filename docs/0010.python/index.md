@@ -2,7 +2,7 @@
 pageComponent:
   name: Catalogue
   data:
-    key: 001.python
+    key: 0010.python
     imgUrl: /assets/img/python.png
     description: python 用的东西
 title: Python

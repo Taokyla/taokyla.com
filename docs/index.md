@@ -12,9 +12,9 @@ features: # 可选的
     details: python 用的东西
     link: /python/ # 可选
     imgUrl: /assets/img/python.png # 可选
-  - title: 待定
-    details: 待定
-    link: /todo/
+  - title: 其他
+    details: 其他笔记
+    link: /others/
     imgUrl: /assets/img/other.png
   - title: 更多
     details: 更多参考示例

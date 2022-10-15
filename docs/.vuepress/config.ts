@@ -6,6 +6,7 @@ import themeConfig from "./config/themeVdoingConfig";
 import markdown from "./config/markdown";
 import plugins from "./config/plugins";
 import head from "./config/head";
+import path from "path";
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   title: "Taokyla Blog", //站点标题, 建议修改
@@ -17,5 +18,31 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: "vdoing", //主题, 无需修改
   themeConfig, //主题配置, 如需修改请修改 config/themeVdoingConfig.ts
   markdown, //markdown 相关配置, 如需修改请修改 config/markdown.ts
-  plugins, //插件配置, 如需修改请修改 config/plugins.ts
+  plugins, //插件配置, 如需修改请修改 config/plugins.ts,
+  configureWebpack: () => {
+    const NODE_ENV = process.env.NODE_ENV
+    //判断是否是生产环境
+    if(NODE_ENV === 'production'){
+      return {
+        output: {
+          publicPath: 'https://fastly.jsdelivr.net/gh/Taokyla/taokyla.github.io@gh-pages'
+        },
+        resolve: {
+          //配置路径别名
+          alias: {
+            'public': path.resolve(__dirname, './public')
+          }
+        }
+      }
+    }else{
+      return {
+        resolve: {
+          //配置路径别名
+          alias: {
+            'public': path.resolve(__dirname, './public')
+          }
+        }
+      }
+    }
+  }
 });

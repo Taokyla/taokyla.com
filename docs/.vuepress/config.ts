@@ -25,7 +25,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     if(NODE_ENV === 'production'){
       return {
         output: {
-          publicPath: 'https://fastly.jsdelivr.net/gh/Taokyla/taokyla.github.io@gh-pages'
+          publicPath: 'https://fastly.jsdelivr.net/gh/Taokyla/taokyla.github.io@gh-pages/'
         },
         resolve: {
           //配置路径别名

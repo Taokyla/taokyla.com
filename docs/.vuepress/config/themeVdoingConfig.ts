@@ -65,7 +65,7 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-bilibili",
         title: "哔哩哔哩",
-        link: "https://space.bilibili.com/6807912",
+        link: "https://space.bilibili.com/680791",
       },
       {
         iconClass: "icon-github",

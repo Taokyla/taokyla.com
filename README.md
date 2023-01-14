@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8426a78b-42f6-4fe2-85d3-c7f34d6eb6c1/deploy-status)](https://app.netlify.com/sites/taokyla/deploys)
+
 ## 介绍
 
 本项目由 [vuepress-theme-vdoing-template](https://github.com/u2sb/vuepress-theme-vdoing-template) 创建。

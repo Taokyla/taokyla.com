@@ -84,8 +84,6 @@ export default <VdoingThemeConfig>{
     createYear: 2022, // 博客创建年份
     copyrightInfo: `
       <a href='https://taokyla.com' target='_blank'>Taokyla</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
-      <br>
-      <a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2022010865号-1</a>
     `, // 博客版权信息，支持a标签
   },
 };
